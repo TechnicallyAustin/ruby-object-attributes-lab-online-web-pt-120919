@@ -4,7 +4,7 @@ class Person
   end
   
   def name 
-    p @this_person
+     @name
   end
   
   def job= (person_job)
@@ -12,7 +12,7 @@ class Person
   end
   
   def job 
-    p @this_job
+    p @job
   end
   beyonce = Person.new
   beyonce.name
