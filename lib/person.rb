@@ -14,5 +14,7 @@ class Person
   def job 
     p @this_job
   end
-  
+  beyonce = Person.new
+  beyonce.name
+  beyonce.job
 end
