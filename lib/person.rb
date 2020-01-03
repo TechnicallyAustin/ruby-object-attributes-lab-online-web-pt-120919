@@ -1,6 +1,6 @@
 class Person
   def name= (person_name)
-    @this_person = person_name
+    @name = person_name
   end
   
   def name 
@@ -8,11 +8,11 @@ class Person
   end
   
   def job= (person_job)
-    @this_job = person_job
+    @job = person_job
   end
   
   def job 
-    p @job
+    @job
   end
   beyonce = Person.new
   beyonce.name
